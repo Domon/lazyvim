@@ -4,5 +4,5 @@
 
 if vim.g.neovide then
   vim.o.guifont = "AnonymicePro Nerd Font:h18"
-  vim.o.linespace = 25
+  vim.o.linespace = 13
 end
