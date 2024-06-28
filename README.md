@@ -12,3 +12,13 @@ brew install iterm2
 
 git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 ```
+
+## Cheat Sheet
+
+### Search
+
+* `<leader>sk` - Search keymaps
+
+### Find
+
+* `<leader>fc` - Find config files
