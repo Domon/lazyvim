@@ -4,9 +4,9 @@
 
 local map = vim.keymap.set
 
--------------
--- General --
--------------
+----------
+-- Edit --
+----------
 
 -- Save with Cmd-s
 map({ "n", "v" }, "<D-s>", "<cmd>w<cr>", { desc = "Save file" })
@@ -21,6 +21,13 @@ map("i", "<D-v>", "<esc>pa", { desc = "Paste" })
 
 -- Find files with Cmd-t
 map("n", "<D-t>", LazyVim.pick("auto"), { desc = "Find Files (Root Dir)" })
+--
+------------
+-- Search --
+------------
+
+-- Clear search highlights with the Enter key
+map("n", "<cr>", "<cmd>nohlsearch<cr>", { desc = "Clear search highlights" })
 
 ----------
 -- Tabs --
