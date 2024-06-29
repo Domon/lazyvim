@@ -25,12 +25,38 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `Cmd-t`, `<leader><space>`, `<leader>ff` - Find files
 * `<leader>fc` - Find config files
 
+### Jumps
+
+* `C-6` - Go to last file
+* `''` - Go to last position
+* `'.` - Go to last change
+* `C-o` - Go to older position
+* `C-i`, `Tab` - Go to newer location
+
 ### Completion (`nvim-cmp`)
 
 * `C-n` / `C-p` - Select next / previous completion
 * `Tab`, `C-y` - Confirm selected completion
 * `C-e` - Abort completion
 * `C-f` / `C-b` - Scroll down / up the documentation
+
+### Buffers
+
+* `<leader>bb` - Go to last buffer
+* `]b`, `:bn[ext]` - Go to next buffer
+* `[b`, `:bN[ext]`, `:bp[revious]`  - Go to previous buffer
+
+### Lazy
+
+* `<leader>l` - Lazy
+
+### Git
+
+* `<leader>gg` - Lazygit
+* `<leader>gb` - Git blame line
+* `<leader>gB` - Git browse repository
+* `<leader>gl` - Git log repository
+* `<leader>gL` - Git log file
 
 ## Notes
 
