@@ -19,6 +19,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 * `<leader>sw` - Search words
 * `<leader>sk` - Search keymaps
+* `<leader>sh` - Search help pages
+* `<leader>snt` - Search notifications
+* `<leader>snl` - Last notification
+* `<leader>sna` - All notifications
 
 ### Find
 
@@ -46,7 +50,7 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `]b`, `:bn[ext]` - Go to next buffer
 * `[b`, `:bN[ext]`, `:bp[revious]`  - Go to previous buffer
 
-### Lazy
+### LazyVim
 
 * `<leader>l` - Lazy
 
@@ -57,6 +61,11 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `<leader>gB` - Git browse repository
 * `<leader>gl` - Git log repository
 * `<leader>gL` - Git log file
+
+### UI
+
+* `<leader>uC` - Change color scheme
+* `<leader>ul` - Toggle line number
 
 ## Notes
 
