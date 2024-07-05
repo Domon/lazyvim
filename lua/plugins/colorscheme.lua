@@ -21,8 +21,8 @@ return {
       -- colorscheme = "everforest",
 
       -- colorscheme = "kanagawa", -- default
-      -- colorscheme = "kanagawa-wave", -- dark
-      colorscheme = "kanagawa-dragon", -- dimmed dark
+      colorscheme = "kanagawa-wave", -- dark
+      -- colorscheme = "kanagawa-dragon", -- dimmed dark
       -- colorscheme = "kanagawa-lotus", -- light
 
       -- background = "dark",
