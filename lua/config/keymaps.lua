@@ -37,8 +37,8 @@ map("n", "<cr>", "<cmd>nohlsearch<cr>", { desc = "Clear search highlights" })
 map("n", "<D-n>", "<cmd>tabnew<cr>", { desc = "Open a new tab" })
 
 -- Move the tab to the left / right with Cmd-Left / Cmd-Right
-map("n", "<D-[>", "<cmd>-tabmove<cr>", { desc = "Move tab to the left" })
-map("n", "<D-]>", "<cmd>+tabmove<cr>", { desc = "Move tab to the right" })
+map("n", "<D-Left>", "<cmd>-tabmove<cr>", { desc = "Move tab to the left" })
+map("n", "<D-Right>", "<cmd>+tabmove<cr>", { desc = "Move tab to the right" })
 
 -- Go to the next / previous tab with Cmd-Shift-] / Cmd-Shit-[
 map("n", "<D-}>", "<cmd>tabnext<cr>", { desc = "Go to next tab" })
