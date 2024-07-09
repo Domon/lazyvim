@@ -39,16 +39,16 @@ if vim.g.neovide then
   map(
     { "i", "n", "v" },
     "<D-=>",
-    ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>",
+    ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<cr>",
     { desc = "Zoom in" }
   )
   map(
     { "i", "n", "v" },
     "<D-->",
-    ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>",
+    ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<cr>",
     { desc = "Zoom out" }
   )
-  map({ "i", "n", "v" }, "<D-0>", ":lua vim.g.neovide_scale_factor = 1<CR>", { desc = "Reset GUI scale" })
+  map({ "i", "n", "v" }, "<D-0>", ":lua vim.g.neovide_scale_factor = 1<cr>", { desc = "Reset GUI scale" })
 end
 
 ------------
