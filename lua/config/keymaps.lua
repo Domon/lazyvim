@@ -4,6 +4,13 @@
 
 local map = vim.keymap.set
 
+------------
+-- Buffer --
+------------
+
+-- Delete current buffer with Cmd-w
+map({ "i", "n", "v" }, "<D-w>", "<cmd>bdelete<cr>", { desc = "Delete buffer" })
+
 ----------
 -- Edit --
 ----------
