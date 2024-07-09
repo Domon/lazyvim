@@ -9,7 +9,7 @@ local map = vim.keymap.set
 ----------
 
 -- Save with Cmd-s
-map({ "n", "v" }, "<D-s>", "<cmd>w<cr>", { desc = "Save file" })
+map({ "i", "n", "v" }, "<D-s>", "<cmd>w<cr>", { desc = "Save file" })
 
 -- Copy & Paste with Cmd-c / Cmd-v
 map("v", "<D-c>", "y", { desc = "Copy" })
