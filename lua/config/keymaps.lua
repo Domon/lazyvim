@@ -22,7 +22,28 @@ map("n", "<D-v>", "p", { desc = "Paste" })
 
 -- Find files with Cmd-t
 map("n", "<D-t>", LazyVim.pick("auto"), { desc = "Find Files (Root Dir)" })
---
+
+---------
+-- GUI --
+---------
+
+-- Zoom in / out / reset with Cmd-+ / Cmd-- / Cmd-0
+if vim.g.neovide then
+  map(
+    { "i", "n", "v" },
+    "<D-=>",
+    ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>",
+    { desc = "Zoom in" }
+  )
+  map(
+    { "i", "n", "v" },
+    "<D-->",
+    ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>",
+    { desc = "Zoom out" }
+  )
+  map({ "i", "n", "v" }, "<D-0>", ":lua vim.g.neovide_scale_factor = 1<CR>", { desc = "Reset GUI scale" })
+end
+
 ------------
 -- Search --
 ------------
