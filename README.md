@@ -28,6 +28,7 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 * `Cmd-t`, `<leader><space>`, `<leader>ff` - Find files
 * `<leader>fc` - Find config files
+* `<leader>fp` - Find projects
 
 ### Jumps
 
@@ -61,6 +62,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `<leader>gB` - Git browse repository
 * `<leader>gl` - Git log repository
 * `<leader>gL` - Git log file
+
+### Projects
+
+* `:AddProject` - Manually add the current directory as a project
 
 ### UI
 
