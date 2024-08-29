@@ -27,6 +27,7 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 ### Find
 
 * `Cmd-t`, `<leader><space>`, `<leader>ff` - Find files
+* `<leader>,`, `<leader>fb` - Find buffers
 * `<leader>fc` - Find config files
 * `<leader>fp` - Find projects
 
@@ -37,6 +38,12 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `'.` - Go to last change
 * `C-o` - Go to older position
 * `C-i`, `Tab` - Go to newer location
+
+### Code
+
+* `C-w d`, `<leader>cd` -  Show diagnostics (e.g. linter errors)
+* `]d` - Go to next diagnostics
+* `[d` - Go to previous diagnostics
 
 ### Completion (`nvim-cmp`)
 
