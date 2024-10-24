@@ -72,7 +72,8 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 ### Projects
 
-* `:AddProject` - Manually add the current directory as a project
+* `:AddProject` - Add **current directory** as a project
+* `d` / `C-d` - Delete project from list
 
 ### UI
 
