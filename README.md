@@ -52,6 +52,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `C-e` - Abort completion
 * `C-f` / `C-b` - Scroll down / up the documentation
 
+### Copilot Chat (`CopilotChat.nvim`)
+
+* `:CopilotChatExplain` - Explain active selection
+
 ### Buffers
 
 * `<leader>bb` - Go to last buffer
