@@ -66,6 +66,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 * `<leader>l` - Lazy
 
+### Lua
+
+* `:=EXPR` / `:lua vim.print(EXPR)` - Evaluate `EXPR` and print the result
+
 ### Git
 
 * `<leader>gg` - Lazygit
