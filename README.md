@@ -3,13 +3,7 @@
 ## Installation
 
 ```sh
-brew install neovim
-brew install homebrew/cask-fonts/font-anonymice-nerd-font
-brew install lazygit
-brew install ripgrep
-brew install fd
-brew install iterm2
-
+brew install neovim font-anonymice-nerd-font lazygit ripgrep fd iterm2
 git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 ```
 
