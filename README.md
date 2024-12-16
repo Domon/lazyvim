@@ -4,6 +4,9 @@
 
 ```sh
 brew install neovim font-anonymice-nerd-font lazygit ripgrep fd iterm2
+```
+
+```sh
 git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 ```
 
