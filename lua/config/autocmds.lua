@@ -16,3 +16,9 @@ vim.api.nvim_create_autocmd("VimLeave", {
     vim.cmd("set guicursor=a:ver100-blinkon0")
   end,
 })
+
+-- Parse Knuckle Cluster config as YAML
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*/.ssh/knuckle_cluster",
+  command = "set filetype=yaml",
+})
