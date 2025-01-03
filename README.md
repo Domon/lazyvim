@@ -92,5 +92,5 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `copilot.lua`, instead of the official `copilot.vim`, is installed.
   * `copilot.lua`'s keymaps are different from `copilot.vim`'s.
   * Tokens are stored in `~/.config/github-copilot/hosts.json` or `apps.json`.
-* `nvim-cmp` is the completion engine where the keymaps are defined.
-  * `copilot-cmp` transforms `copilot.lua` into a cmp source for `nvim-cmp`.
+* `blink.cmp` is the completion engine where the keymaps are defined.
+  * `blink-cmp-copilot` transforms `copilot.lua` into a cmp source for `blink.cmp`.
