@@ -14,6 +14,7 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 ### Search
 
+* `<leader>/` - Search
 * `<leader>sw` - Search words
 * `<leader>sk` - Search keymaps
 * `<leader>sh` - Search help pages
@@ -84,6 +85,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 * `<leader>uC` - Change color scheme
 * `<leader>ul` - Toggle line number
+
+### Spelling
+
+* `zg` - Add word to dictionary
 
 ## Notes
 
