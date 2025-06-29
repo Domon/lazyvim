@@ -66,7 +66,9 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 ### Lua
 
-* `:=EXPR` / `:lua vim.print(EXPR)` - Evaluate `EXPR` and print the result
+* `:=EXPR` - Evaluate `EXPR` and print the result to messages
+  * Equivalent to `:lua print(vim.inspect(EXPR))`
+* `:mes` / `:messages` - Show all messages
 
 ### Git
 
@@ -99,3 +101,8 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
   * Tokens are stored in `~/.config/github-copilot/hosts.json` or `apps.json`.
 * `blink.cmp` is the completion engine where the keymaps are defined.
   * `blink-cmp-copilot` transforms `copilot.lua` into a cmp source for `blink.cmp`.
+
+### LazyVim source code
+
+* Find LazyVim source code in `~/.local/share/nvim/lazy/LazyVim/`.
+  * For example, the config for blink in the coding extra: `.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/coding/blink.lua`.
