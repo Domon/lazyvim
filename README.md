@@ -73,10 +73,11 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 ### Git
 
 * `<leader>gg` - Lazygit
-* `<leader>gb` - Git blame line
-* `<leader>gB` - Git browse repository
-* `<leader>gl` - Git log repository
-* `<leader>gL` - Git log file
+* `<leader>gb` - Git blame (current line)
+* `<leader>gB` - Git browse (open)
+* `<leader>gY` - Git browse (copy URL)
+* `<leader>gl` - Git log
+* `<leader>gf` - Git log (current file)
 
 ### Projects
 
