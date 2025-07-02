@@ -50,6 +50,18 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `C-e` - Abort completion
 * `C-f` / `C-b` - Scroll down / up the documentation
 
+### Claude Code (`coder/claudecode.nvim`)
+
+* `<leader>ac` - Toggle Claude
+* `<leader>aC` - Continue Claude
+* `<leader>ar` - Resume Claude
+* `<leader>af`, `Cmd-l` - Focus Claude
+* `<leader>ab` - Add current buffer to Claude
+* `<leader>as` - Send selected lines to Claude
+* `<leader>as` - Send file to Claude from a file browser
+* `Cmd-y` - Accept diff
+* `Cmd-n` - Deny diff
+
 ### Copilot Chat (`CopilotChat.nvim`)
 
 * `:CopilotChatExplain` - Explain active selection
