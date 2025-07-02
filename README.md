@@ -60,6 +60,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `]b`, `:bn[ext]` - Go to next buffer
 * `[b`, `:bN[ext]`, `:bp[revious]`  - Go to previous buffer
 
+### File Browser (`neo-tree.nvim`)
+
+* `Y` - Copy file path to clipboard
+
 ### LazyVim
 
 * `<leader>l` - Lazy
