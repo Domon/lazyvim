@@ -59,8 +59,8 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `<leader>ab` - Add current buffer to Claude
 * `<leader>as` - Send selected lines to Claude
 * `<leader>as` - Send file to Claude from a file browser
-* `Cmd-y` - Accept diff
-* `Cmd-n` - Deny diff
+* `<leader>ay` - Accept diff
+* `<leader>an` - Deny diff
 
 ### Copilot Chat (`CopilotChat.nvim`)
 

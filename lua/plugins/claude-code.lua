@@ -3,7 +3,6 @@ return {
   dependencies = { "folke/snacks.nvim" },
   config = true,
   keys = {
-    --   { "<leader>a", nil, desc = "AI/Claude Code" },
     { "<leader>ac", "<cmd>ClaudeCode<cr>", desc = "Toggle Claude" },
     { "<leader>aC", "<cmd>ClaudeCode --continue<cr>", desc = "Continue Claude" },
     { "<leader>ar", "<cmd>ClaudeCode --resume<cr>", desc = "Resume Claude" },
@@ -22,8 +21,8 @@ return {
       desc = "Send file to Claude",
       ft = { "NvimTree", "neo-tree", "oil" },
     },
-    { "<D-y>", "<cmd>ClaudeCodeDiffAccept<cr>", desc = "Accept diff" },
-    { "<D-n>", "<cmd>ClaudeCodeDiffDeny<cr>", desc = "Deny diff" },
+    { "<leader>ay", "<cmd>ClaudeCodeDiffAccept<cr>", desc = "Accept diff" },
+    { "<leader>an", "<cmd>ClaudeCodeDiffDeny<cr>", desc = "Deny diff" },
   },
 }
 
