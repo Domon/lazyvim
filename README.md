@@ -104,6 +104,8 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 * `<leader>uC` - Change color scheme
 * `<leader>ul` - Toggle line number
+* `<leader>uf` - Toggle auto-formatting (global)
+* `<leader>uF` - Toggle auto-formatting (buffer)
 
 ### Spelling
 
