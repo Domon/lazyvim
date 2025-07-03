@@ -18,6 +18,8 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `<leader>sw` - Search words
 * `<leader>sk` - Search keymaps
 * `<leader>sh` - Search help pages
+* `<leader>sC` - Search commands
+* `<leader>ss` - Search command history
 * `<leader>snt` - Search notifications
 * `<leader>snl` - Last notification
 * `<leader>sna` - All notifications
