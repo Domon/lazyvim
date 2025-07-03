@@ -24,6 +24,10 @@ map("i", "<D-v>", "<esc>pa", { desc = "Paste" })
 map("n", "<D-v>", "p", { desc = "Paste" })
 map("t", "<D-v>", "<C-\\><C-n>pa", { desc = "Paste" })
 
+if vim.g.neovide then
+  map("c", "<D-v>", '<C-r>"', { desc = "Paste" })
+end
+
 ----------
 -- Find --
 ----------
