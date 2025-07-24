@@ -113,6 +113,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 * `zg` - Add word to dictionary
 
+### Markdown
+
+* `<leader>cp` - Preview Markdown in the browser (scrolling is synchronized)
+
 ## Notes
 
 ### Copilot
