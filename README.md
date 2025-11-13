@@ -76,7 +76,24 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 
 ### File Browser (`neo-tree.nvim`)
 
-* `Y` - Copy file path to clipboard
+#### Open
+
+* `s` - Open in a vertical split
+* `S` - Open in a horizontal split
+
+#### Edit
+
+* `y` - Copy
+* `p` - Paste
+* `Y` - Copy full file path
+* `r` - Rename
+* `m` - Move
+
+#### View
+
+* `R` - Refresh
+* `I` - Toggle hidden files
+* `.` - Set as root directory
 
 ### LazyVim
 
