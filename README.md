@@ -21,8 +21,10 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `<leader>sC` - Search commands
 * `<leader>ss` - Search command history
 * `<leader>snt` - Search notifications
-* `<leader>snl` - Last notification
-* `<leader>sna` - All notifications
+
+### Notifications
+
+* `<leader>n` - Show notifications
 
 ### Find
 
