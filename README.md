@@ -39,7 +39,7 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 * `''` - Go to last position
 * `'.` - Go to last change
 * `C-o` - Go to older position
-* `C-i`, `Tab` - Go to newer location
+* `C-i`, `<tab>` - Go to newer location
 
 ### Code
 
@@ -50,9 +50,13 @@ git clone git@github.com:Domon/lazyvim.git  ~/.config/nvim
 ### Completion (`nvim-cmp`)
 
 * `C-n` / `C-p` - Select next / previous completion
-* `Tab`, `C-y` - Confirm selected completion
+* `<tab>`, `C-y` - Confirm selected completion
 * `C-e` - Abort completion
 * `C-f` / `C-b` - Scroll down / up the documentation
+
+### Tabs
+
+* `<leader><tab><tab>` - New tab
 
 ### Claude Code (`coder/claudecode.nvim`)
 
